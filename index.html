@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="text">
+        <nav>
+          <div class="logo"><img src="./images/logo.svg" alt="" /></div>
+        </nav>
+
+        <div class="img-sm"><img src="./images/hero-mobile.jpg" alt="" /></div>
+
+        <div class="form">
+          <h1 class="title">WE'RE <span class="come"> COMING SOON</span></h1>
+          <p class="sub">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add you email below to saty up-to-date with announcement and
+            our deals.
+          </p>
+
+          <div class="input">
+            <input
+              type="email"
+              id="email"
+              placeholder="Email Address"
+              autocomplete="off"
+            />
+            <div class="error">
+              <img src="./images/icon-error.svg" alt="" />
+            </div>
+            <button id="next">
+              <img src="./images/icon-arrow.svg" alt="" />
+            </button>
+
+            <label for="email" id="valid">Please provide a valid email</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="img-lg">
+        <img src="./images/hero-desktop.jpg" alt="" />
+      </section>
+    </main>
+  </body>
+</html>
