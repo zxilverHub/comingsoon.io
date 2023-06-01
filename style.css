@@ -128,7 +128,7 @@ main {
     outline: none;
 }
 
-.input button {
+.input #next {
     padding: 10px 40px;
     border-radius: 30px;
     border: none;
@@ -155,7 +155,7 @@ main {
     display: none;
 }
 
-.input button:hover { box-shadow: 0 0 20px var(--desaturated-red); }
+.input #next:hover { box-shadow: 0 0 20px var(--desaturated-red); }
 
 /* QUERIES */   
 
